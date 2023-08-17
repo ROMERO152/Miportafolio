@@ -1,0 +1,21 @@
+.imagen{
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 4px;
+    padding: 6px;
+}
+#panel, .texto{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid white;
+    margin: auto;
+    max-width: 220px;
+}
+#panel{
+    display: none;
+}

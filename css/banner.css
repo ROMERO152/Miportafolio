@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(180deg, #013067 60%,#b17f33 100%);
+}
+#banner{
+    height: 300px;
+    max-width: 1200px;
+    display:flex;
+    margin: 5em auto;
+    border-radius: 0px 150px 150px 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    outline: 2px dashed #e4717a;
+    outline-offset: 5px;
+}
+#perfil img{
+    height: 300px;
+    border-radius: 50%;
+    /* border: 3px solid #003f89; */
+    box-shadow:#003f89 0px 0px 30px;  
+}
+#presentacion{
+    padding: 0px 50px 0px 0px;
+}
+#presentacion h1{
+    font-size: 4em;
+    color: #f39509;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#presentacion h2{
+    padding-left: 10px;
+    text-shadow: black 2px 2px 3px;
+}
+span{
+    color: #f39509;
+    /* text-shadow:white 3px 3px 10px; */
+}

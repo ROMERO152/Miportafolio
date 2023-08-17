@@ -1,0 +1,51 @@
+
+body{
+    text-align: center;
+}
+section nav{
+    display: block;
+    font-family: sans-serif, Verdana, Tahoma;
+}
+#reproductor{
+    box-sizing: content-box;
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px;
+    background: #999999;
+    border: 2px solid #666666;
+    border-radius: 5px;
+}
+nav{
+    margin: 5px 0px;
+}
+#botones{
+    float: left;
+    width: 100px;
+    height: 20px;
+}
+#barra{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
+}
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    background: rgba(0, 0, 150, 0.4);
+}
+button{
+    padding: 2px  5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background: #666666;
+    color: white;
+}

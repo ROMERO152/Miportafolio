@@ -1,0 +1,74 @@
+@media all and (max-width:900px){
+    header .contenedor{
+        width: 95%;
+    }
+    #menu{
+        background-color: rgba(0, 63, 137,0.8);
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        transition: all 0.5s;
+        transform: translateX(-100%);
+        width: 100%;
+    }
+    #menu ul{
+        flex-direction: column;
+    }
+    #menu ul a{
+        display: block;
+        padding: 15px;
+    }
+    #menu ul a:hover{
+        color: white;
+        background-color: #b17f33;
+        border: none;
+    }
+    .icon-menu{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #menu-bar:checked ~ #menu{
+        transform: translateX(0%);
+    }
+    #banner{
+        margin:0;
+        padding-top: 50px;
+        display: block;
+        border-radius: 0px 0px;
+        height: auto;
+        outline: none;
+        padding-bottom: 60px;
+    }
+    #perfil img{
+        height: 200px;
+        margin-top: 25px;
+    }
+    #presentacion{
+        padding: 0;
+    }
+    #presentacion h1{
+        margin-bottom: 20px;
+        font-size: 3em;
+    }
+    #presentacion h2{
+        font-size: 22px;
+    }
+    #logo{
+        font-size: 20px;
+    }
+    .separador{
+        padding-top: 90px;
+    }
+    }
+    @media(max-width:285px){
+       
+        .separador2{
+            margin-top: 20px;
+        }
+        #perfil img{
+            height: 150px;
+        }
+    }
+    

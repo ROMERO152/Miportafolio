@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif, Verdana,Tahoma;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+/* li a.active{
+    background-color: aqua;
+    color: white;
+} */
+a{
+    text-decoration: none;
+}
+.contenedor{
+    display: block;
+    max-width: 1024px;
+    margin: auto;
+}
+/*header y menu*/
+#menu-bar, .icon-menu{
+    display: none;
+}
+
+header{
+    background-color: #003f89;
+    border-bottom:1px solid rgba(255, 255, 255, 0.5);
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+header .contenedor{
+    height: 100%;
+}
+.contenedor-logo-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+#menu a{
+    color: white;
+    font-weight: bold;
+    padding: 0.7em 0.4em;
+    font-size: 20px;
+}
+#menu a:hover{
+    color: #b17f33;
+    border-bottom:2px solid #e4717a;
+}
+.separador{
+    padding-top: 70px;
+}
+/*menu desplegable*/
+.desplegar-lista{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #003f8980;
+}
+.desplegar-lista a{
+    display: block;
+    padding:  12px 16px;
+    text-align: left;
+}
+
+.desplegar:hover .desplegar-lista{
+    display: block;
+}

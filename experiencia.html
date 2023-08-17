@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/player.css">
+
+</head>
+<script src="javaScript/reproductor.js"></script>
+</script>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-menu">
+                <H1 id="logo">ELISEO ROMERO</H1>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar" class="icon-menu"></label>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="experiencia.html">experiencia</a></li>
+                        <li><a href="proyectos.html">proyectos</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </header>
+    <div class="separador"></div>
+    <section id="reproductor">
+        <video id="medio" width="720" height="400" preload controls poster="https://cdn-icons-png.flaticon.com/512/1783/1783344.png">
+            <source  src="video/intro.mp4">
+        </video>
+        <nav>
+            <div id="botones">
+                <button type="button" id="reproducir">Reproducir</button>
+            </div>
+            <div id="barra">
+                <div id="progreso"></div>
+            </div>
+            <div style="clear: both;"></div>
+        </nav>
+    </section>
+</body>
+</html>
